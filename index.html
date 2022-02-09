@@ -1,0 +1,38 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+<script src="js/game.js"></script>
+<script src="js/player.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+   
+
+<script>
+//<!--Add database config here below-->
+const firebaseConfig = {
+  apiKey: "AIzaSyBOH3VTiViYA7dvKv8LowR93ar2wLu_yjs",
+  authDomain: "jungle-game-65880.firebaseapp.com",
+  databaseURL: "https://jungle-game-65880-default-rtdb.firebaseio.com",
+  projectId: "jungle-game-65880",
+  storageBucket: "jungle-game-65880.appspot.com",
+  messagingSenderId: "954396912317",
+  appId: "1:954396912317:web:21bf1b8e0fba0604a425d4"
+
+ 
+ };
+ firebase.initializeApp(firebaseConfig);
+</script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
